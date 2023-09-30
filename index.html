@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="Turtle" content="wow amazing website very high quality yes i know no sarcasm">
+    <link href = style.css rel = "stylesheet"/>
+    <title>Document</title>
+</head>
+<script> 
+    function playSound() {
+    var audio = new Audio("jump_sound.mp3")
+    audio.play();
+    }
+
+    function generateVideo() {
+        tempDiv = document.getElementById("tempButton")
+        tempDiv.innerHTML = "<video controls> <source src = 'hammie_boye.mp4' type = 'video/mp4'/> </video>";
+        var video = tempDiv
+        video.play();
+    }
+    
+    function clearBox() {
+        tempDiv2 = document.getElementById("email");
+        tempDiv = "";
+    }
+    </script>
+<body>
+    <!-- Main page of the website (starting page)-->
+    <title> Turtle Website </title>
+    <h1> Turtle Website - Tony Chen </h1>
+    <p> I am a senior <strong> (obviously) </strong> and I am in the Software Engineering major <strong> (also obviously) </strong> here at Brooklyn Technical High School <p style = "color: #1c842e";> 🐢 Turtles are my favorite animal 🐢 </p>
+    <span style = "color:aqua"> ❄️ My favorite season is Winter ❄️ (due to winter break) </span>
+    <p> </p>
+        </p>
+    <a href = "https://trollface.dk/" title = "this is not fun"> Cool Link </a>
+    <br>
+    <img 
+    src="https://i.pinimg.com/originals/6a/1f/18/6a1f1809b728a11a1730ee535dc60618.png"
+    alt="turtle" />
+    <caption> <strong> &#60-- Heres a cool image of a turtle dabbing I found </strong> </caption>
+    <br>
+    <h2 style = "color: #258ce0";> dont wake the turtle zzz</h2>
+    <a href = https://media.istockphoto.com/id/1004052896/vector/little-turtle-get-angry.jpg?s=612x612&w=0&k=20&c=JVgPEphWv3zYc7YVRW0XwMb_kGETc-c-Ne-g6R3OePg=>
+        <img src = "https://media.istockphoto.com/id/1356502695/vector/illustrated-image-of-a-cute-turtle-sleeping-soundly.jpg?s=612x612&w=0&k=20&c=eRQavZuCyKsBgY8n0VL13TNPR0aNUWC54J94-WYVlmc=">
+    </a>
+    <br>
+    <h3 style = "color: #663dea";> <strong> Things I Dislike: </strong> </h3>
+    <ol> 
+        <li> Homework</li>
+        <li> Homework</li>
+        <li> Homework</li>
+        <li> Homework</li>
+        <li> Homework</li>
+    </ol>
+
+    <caption style = "color: #2376f3";> <strong> My schedule: </strong> </caption>
+    <table> 
+    <tr>
+        <td> 1 </td>
+        <td> 2 </td>
+        <td> 3 </td>
+        <td> 4 </td>
+        <td> 5 </td>
+        <td> 6 </td>
+        <td> 7 </td>
+        <td> 8 </td>
+        <td> 9 </td>
+        <td> 10 </td>
+
+    </tr>
+
+    <tr>
+        <td> FREE PERIOD</td>
+        <td> IT Fundamentals </td>
+        <td> Web Development / Digital Electronics </td>
+        <td> Web Development / Digital Electronics </td>
+        <td> Science Fiction & Fantasy </td>
+        <td> AP Comparative Politics and Government </td>
+        <td> FREE PERIOD</td>
+        <td> FREE PERIOD / GYM / ADVISORY </td>
+        <td> AP Calculus AB </td>
+        <td> FREE PERIOD</td>
+    </tr>
+    </table>
+
+    <br>
+    <button onclick = playSound()> Press me to play a jump sound! </button>
+    <br>
+    <div id = "tempButton"> 
+    <button onclick = generateVideo()> Press me to generate a video! </button>
+    </div>
+    <br>
+
+    <form> <strong> Enter your e-mail to receive alerts? </strong></form>
+    <ul> 
+        <li>
+            <label> Email: </label> 
+            <div id = email> 
+            <input type = mail>
+            <button onclick = clearBox();><strong> Submit </strong> </button>
+            </div>
+        </li>
+    </ul>
+    <br>
+    <h4 style = "color: #d93406";> Redirects to other pages: </h4>
+    <a href = favorite.html title = "favorites"> Favorites </a>
+    <br>
+    <a href = spots.html title = "spots"> Spots in NYC </a>
+    <br>
+    <a href = skills.html title = "skills"> How to Skills </a>
+
+    <h5> <strong> © 2023 Tony Chen </strong> </h5>
+</body>
+
+</html>
